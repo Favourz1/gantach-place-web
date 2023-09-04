@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        openSans: ['var(--open-sans-light)'],
+        oldStandard: ['var(--oldStandard-light)'],
+        amaranth: ['var(--amaranth)']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
